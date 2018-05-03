@@ -141,7 +141,7 @@ LOGGING = {
             'level': 'INFO',
             'class': 'logging.FileHandler',
             'formatter': 'simple',
-			'filename': './../run.log'
+			'filename': 'C:\project\kaoqin\run.log'
         }
     },
     'loggers': {
