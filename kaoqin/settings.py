@@ -138,17 +138,17 @@ LOGGING = {
     },
     'handlers': {
         'console': {
-            'level': 'DEBUG',
+            'level': 'INFO',
             'class': 'logging.FileHandler',
             'formatter': 'simple',
-			'filename': '../run.log'
+			'filename': 'C:/project/kaoqin/run.log'
         }
     },
     'loggers': {
         'django': {
             'handlers': ['console'],
             'propagate': True,
-            'level': 'DEBUG',
+            'level': 'INFO',
         }
     }
 }
