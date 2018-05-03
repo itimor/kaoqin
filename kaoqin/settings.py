@@ -138,17 +138,17 @@ LOGGING = {
     },
     'handlers': {
         'console': {
-            'level': 'INFO',
+            'level': 'DEBUG',
             'class': 'logging.FileHandler',
             'formatter': 'simple',
-			'filename': './../run.log'
+			'filename': '../run.log'
         }
     },
     'loggers': {
         'django': {
             'handlers': ['console'],
             'propagate': True,
-            'level': 'INFO',
+            'level': 'DEBUG',
         }
     }
 }
